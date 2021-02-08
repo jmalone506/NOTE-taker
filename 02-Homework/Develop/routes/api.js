@@ -9,17 +9,13 @@ function getNotes(){
 module.exports = function (app) {
     app.get("/api/notes", function(req, res){
         res.json(getNotes());
-    })
-    app.post("api/notes", (req,res) {
-        req.body.id = path();
+    });
+    app.post("/api/notes", function(req,res){
+        req.body.id = path()
         const notes = getNotes();
         notes.push(req.body)
-        
-        fs.writeFile("./db/db.json", JSON.stringify(notes), "utf-8" function(err){
-            if (err) throw err;
-            res.JSON(req.body);
-        })
     })
+    
     app.delete("/api/notes/:id", function(req, res){
         var id = req.params.id;
         console.log(id);

@@ -7,10 +7,13 @@
 ## Table Of Content
 * Description
 * Installation
-
+* Usage
 
 ## Decription:
-Used to write and save notes
+Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+
+## Usage
+
 
 ## Installations
 * inquirier

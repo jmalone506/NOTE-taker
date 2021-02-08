@@ -11,8 +11,8 @@
 Used to write and save notes
 
 ## Installations
-inquirier
-init
-uuid
-express
-fs
+* inquirier
+* init
+* uuid
+* express
+* fs

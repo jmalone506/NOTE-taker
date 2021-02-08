@@ -6,7 +6,8 @@
 ## heroku link
 
 https://git.heroku.com/sleepy-lake-20403.git
-
+ ## github repo
+ https://github.com/jmalone506/Note-taker
 ## Table Of Content
 * Description
 * Installation
